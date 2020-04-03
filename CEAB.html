@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <style>
+  /*interface small device*/
+   @media (max-width: 768px) {
+    h1{
+      padding-top: 20px;
+      padding-left: 20px;
+      font-size:20px;
+      color:#585858;
+     }
+     h2{
+       font-size: 25px;
+       color:#585858;
+       text-align: center;
+      }
+     .menu{
+      color:#585858;
+      font-size:16px;
+      font-family:Sans-serif
+      color:red;
+     }
+     ul{
+       font-size:14px;
+       color: #696969;
+     }
+     img{
+       width: 100%;
+       height: auto;
+       margin-bottom: 10px;
+       margin-top: 5px;
+     }
+     .CEAB{
+      margin-right: 20px;
+       display: flex;
+       flex-direction: column;
+       color:#585858;
+       align-content: center;
+       align-items: center;
+
+     }
+     #tituloDos{
+       display:none;
+     }
+     p{
+       font-size: 14px;
+       text-align: justify;
+     }
+     .flexbox{
+       margin-left:20px;
+       display: flex;
+       flex-direction:column;
+       align-items: flex-start;
+
+     }
+     a{
+       color:#585858;
+     }
+   }
+     /*interface medium device*/
+@media (min-width: 769px) and (max-width: 1200px){
+  h1{
+      padding-left: 20px;
+      padding-top: 20px;
+      font-size:20px;
+      color:#585858;
+     }
+
+     .menu{
+      color:#585858;
+      padding-left:20px;
+      font-size:16px;
+      font-family:Sans-serif
+      color:red;
+     }
+     ul{
+       font-size:14px;
+       color: #696969;
+       white-space: nowrap;
+     }
+     img{
+       margin-bottom: 30px;
+       margin-top: 20px;
+       width: 100%;
+       height: auto;
+     }
+     .CEAB{
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       align-items:center;
+       margin-left:30px;
+       margin-right:30px;
+       color:#585858;
+      align-content: center;
+      align-items: center;
+
+     }
+     .parrafo{
+       font-size: 14px;
+       text-align: justify;
+     }
+     #tituloDos{
+       display:none;
+     }
+     .flexbox{
+       display: flex;
+       flex-direction:row;
+       align-items: flex-start;
+   }
+   a{
+     color:#585858;
+   }
+}
+  /*interface big device*/
+@media (min-width: 1200px) {
+    h1{
+      padding-left: 20px;
+      padding-top: 20px;
+      font-size:20px;
+      color:#585858;
+     }
+     h2{
+       display: none;
+     }
+     .menu{
+      color:#585858;
+      padding-left:20px;
+      font-size:16px;
+      font-family:Sans-serif
+      color:red;
+     }
+     ul{
+       font-size:14px;
+       color: #696969;
+       white-space: nowrap;
+     }
+     img{
+       margin-bottom: 30px;
+       width:70%;
+       height: auto;
+       padding-left: 20px;
+     }
+     .CEAB{
+       display: flex;
+       flex-direction:row;
+       color:#585858;
+
+     }
+     .parrafo{
+       padding-left: 10px;
+       padding-right: 20px;
+       font-size: 14px;
+       text-align: justify;
+     }
+     #tituloDos{
+       font-size:16px;
+       font-weight: bold;
+     }
+     .flexbox{
+       display: flex;
+       flex-direction:row;
+     }
+     a{
+       color:#585858;
+     }
+   }
+  </style>
+    </head>
+     <body>
+       <!--portafolio-->
+      <h1><a href="index.html">Daniel Jiménez</a></h1>
+      <div class="flexbox">
+        <div class="menu">
+        Proyectos
+        <ul>
+          <li><a href="CEAB.html" id="proyectoCEAB">C.E.A.B</a></li>
+          <li><a href="AreYouHuman.html" id="AreYouHuman">Are you human?</a></li>
+        </ul>
+        Curadurías
+        <ul>
+          <li><a href="MercadoLibre.html" id="MercadoLibre">Mercado Libre</a></li>
+          <li><a href="miscelanea.html" id="Miscelanea">Miscelánea</a></li>
+        </ul>
+      </div>
+      <div class="CEAB">
+        <h2>C.E.A.B</h2>
+        <h2>(Centro de Entrenamiento Anti Barreras)</h2>
+        <img src="img/CEAB1.JPG" alt="FotoCEAB">
+        <div class="parrafo">
+          <div id="tituloDos">C.E.A.B (Centro de Entrenamiento Anti-Barreras)</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        </div>
+      </div>
+     </body>
+</html>

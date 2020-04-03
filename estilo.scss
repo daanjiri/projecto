@@ -1,0 +1,18 @@
+$color:#585858;
+
+%font{
+  font-size:14px;
+}
+div {
+  color:$color;
+  font-size: 16px;
+  a{color:$color;
+  @extend%font;
+   }
+ }
+
+h1{
+  padding-top: 20px;
+  padding-left: 20px;
+  color:$color;
+ }
